@@ -120,6 +120,7 @@
     PHScanningViewController *vc = [[PHScanningViewController alloc] init];
     vc.array = array;
     vc.index = index;
+    vc.count = self.count;
     [self.navigationController pushViewController:vc animated:YES];
 }
 
