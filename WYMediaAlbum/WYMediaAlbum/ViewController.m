@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "firstViewController.h"
+#import "PHTool.h"
+#import "HUDManager.h"
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) NSArray *array;

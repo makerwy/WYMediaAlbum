@@ -8,6 +8,8 @@
 
 #import "PHCollectionViewCell.h"
 #import <MediaPlayer/MediaPlayer.h>
+#import "UIColor+PHCate.h"
+#import "PHHeader.h"
 
 @interface PHCollectionViewCell ()
 @property (strong, nonatomic) UIImageView  *imageView;

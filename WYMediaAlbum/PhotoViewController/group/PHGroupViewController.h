@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Enumeration.h"
 
 typedef void(^PHGroupViewControllerBlock)(id result);
 

@@ -8,6 +8,7 @@
 
 #import "PHScanningCollectionViewCell.h"
 #import "PHData.h"
+#import "PHHeader.h"
 
 @interface PHScanningCollectionViewCell ()<UIScrollViewDelegate>
 
