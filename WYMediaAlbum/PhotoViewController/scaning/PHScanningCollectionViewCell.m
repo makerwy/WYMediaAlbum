@@ -73,7 +73,9 @@
                 CGRect imageRect = self.imageView.frame;
                 imageRect.size = CGSizeMake(SCREEN_WIDTH_PH , SCREEN_WIDTH_PH * image.size.height / image.size.width);
                 self.imageView.frame = imageRect;
+                
             }
+            self.imageView.center = CGPointMake(SCREEN_WIDTH_PH / 2.0, SCREEN_HEIGHT_PH / 2.0);
             self.imageView.image = image;
             
         }];
